@@ -22,7 +22,6 @@ Voici un aperçu de mes projets récents.
 | Projet | Description | Techs |
 |--------|-------------|-------|
 | [`inception`](https://github.com/vialaenzo/inception) | Projet de conteneurisation d'un projet web (NGINX | MANGODB | WORDPRESS) 
-| [`ui-kit-components`](https://github.com/vialaenzo/ui-kit-components) | Librairie de composants UI réutilisables avec design responsive. | TypeScript, React, TailwindCSS |
 
 ---
 
