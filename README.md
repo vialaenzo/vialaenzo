@@ -21,7 +21,7 @@ Voici un aperçu de mes projets récents.
 
 | Projet | Description | Techs |
 |--------|-------------|-------|
-| [`inception`](https://github.com/vialaenzo/inception) | Projet de conteneurisation d'un service web | NGINX  MANGODB  WORDPRESS) 
+| [`inception`](https://github.com/vialaenzo/inception) | Conteneurisation d'un projet web | NGINX  MANGODB  WORDPRESS) 
 
 ---
 
