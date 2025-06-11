@@ -1,1 +1,40 @@
-# vialaenzo
+# 👋 Salut, moi c’est Enzo Viala
+
+Bienvenue sur mon profil GitHub !
+Je suis passionné par le développement web et logiciel, avec un intérêt particulier pour les projets bien structurés et performants.
+Voici un aperçu de mes projets publics récents et des technologies que j’utilise régulièrement.
+
+---
+
+## 🛠️ Langages & Technologies
+
+![JavaScript](https://img.shields.io/badge/-JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
+![TypeScript](https://img.shields.io/badge/-TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
+![React](https://img.shields.io/badge/-React-61DAFB?style=flat-square&logo=react&logoColor=black)
+![TailwindCSS](https://img.shields.io/badge/-TailwindCSS-38B2AC?style=flat-square&logo=tailwind-css&logoColor=white)
+![Node.js](https://img.shields.io/badge/-Node.js-339933?style=flat-square&logo=node.js&logoColor=white)
+![Python](https://img.shields.io/badge/-Python-3776AB?style=flat-square&logo=python&logoColor=white)
+
+---
+
+## 📌 Projets récents
+
+| Projet | Description | Techs |
+|--------|-------------|-------|
+| [`mon-app-auth`](https://github.com/vialaenzo/mon-app-auth) | Système d'authentification responsive avec A2F, modals, gestion des utilisateurs. | TypeScript, React, TailwindCSS |
+| [`cooling-loop-custom`](https://github.com/vialaenzo/cooling-loop-custom) | Documentation + config sur un build PC watercooling custom avec Alphacool. | Markdown, Hardware |
+| [`ui-kit-components`](https://github.com/vialaenzo/ui-kit-components) | Librairie de composants UI réutilisables avec design responsive. | TypeScript, React, TailwindCSS |
+
+---
+
+## 📈 Statistiques GitHub
+
+![Enzo's GitHub stats](https://github-readme-stats.vercel.app/api?username=vialaenzo&show_icons=true&theme=tokyonight&hide=contribs&count_private=true)
+![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=vialaenzo&layout=compact&theme=tokyonight)
+
+---
+
+## ✉️ Me contacter
+
+Tu veux discuter d’un projet ou collaborer ? N’hésite pas à me contacter via [LinkedIn](https://www.linkedin.com/in/vialaenzo) ou directement sur GitHub !
+
