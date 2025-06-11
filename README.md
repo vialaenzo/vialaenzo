@@ -35,6 +35,4 @@ Voici un aperçu de mes projets récents.
 
 ## ✉️ Me contacter
 
-Tu veux discuter d’un projet ou collaborer ? N’hésite pas à me contacter via [LinkedIn](https://www.linkedin.com/in/vialaenzo) ou directement sur GitHub !
-
-const fs = require('fs');
+Tu veux discuter d’un projet ou collaborer ? N’hésite pas à me contacter via [LinkedIn](https://www.linkedin.com/in/vla-enzo/) ou directement sur GitHub !
