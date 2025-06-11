@@ -21,8 +21,7 @@ Voici un aperçu de mes projets récents.
 
 | Projet | Description | Techs |
 |--------|-------------|-------|
-| [`mon-app-auth`](https://github.com/vialaenzo/mon-app-auth) | Système d'authentification responsive avec A2F, modals, gestion des utilisateurs. | TypeScript, React, TailwindCSS |
-| [`cooling-loop-custom`](https://github.com/vialaenzo/cooling-loop-custom) | Documentation + config sur un build PC watercooling custom avec Alphacool. | Markdown, Hardware |
+| [`inception`](https://github.com/vialaenzo/inception) | Projet de conteneurisation d'un projet web (NGINX | MANGODB | WORDPRESS) 
 | [`ui-kit-components`](https://github.com/vialaenzo/ui-kit-components) | Librairie de composants UI réutilisables avec design responsive. | TypeScript, React, TailwindCSS |
 
 ---
