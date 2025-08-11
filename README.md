@@ -1,7 +1,7 @@
 # 👋 Salut, moi c’est Enzo Viala
 
 Bienvenue sur mon profil GitHub !
-Je suis passionné par le développement web et logiciel, avec un intérêt particulier pour les projets bien structurés et performants.
+Je suis passionné par le développement web et logiciels.
 Voici un aperçu de mes projets récents.
 
 ---
