@@ -1,7 +1,7 @@
 # 👋 Salut, moi c’est Enzo Viala
 
-Bienvenue sur mon profil GitHub !
-Je suis passionné par le développement web et logiciels.
+Bienvenue sur mon profil GitHub !  
+Je suis passionné par le développement web et logiciels.  
 Voici un aperçu de mes projets récents.
 
 ---
@@ -14,6 +14,13 @@ Voici un aperçu de mes projets récents.
 ![TailwindCSS](https://img.shields.io/badge/-TailwindCSS-38B2AC?style=flat-square&logo=tailwind-css&logoColor=white)
 ![Node.js](https://img.shields.io/badge/-Node.js-339933?style=flat-square&logo=node.js&logoColor=white)
 ![Python](https://img.shields.io/badge/-Python-3776AB?style=flat-square&logo=python&logoColor=white)
+![C](https://img.shields.io/badge/-C-00599C?style=flat-square&logo=c&logoColor=white)
+
+---
+
+## 🖥️ Outils de développement
+
+![Visual Studio Code](https://img.shields.io/badge/-Visual%20Studio%20Code-0078d7?style=flat-square&logo=visual-studio-code&logoColor=white)
 
 ---
 
@@ -21,7 +28,7 @@ Voici un aperçu de mes projets récents.
 
 | Projet | Description | Techs |
 |--------|-------------|-------|
-| [`inception`](https://github.com/vialaenzo/inception) | Conteneurisation d'une app web | NGINX  MANGODB  WORDPRESS) 
+| [`inception`](https://github.com/vialaenzo/inception) | Conteneurisation d'une app web | NGINX  MANGODB  WORDPRESS |
 
 ---
 
