@@ -35,6 +35,15 @@ async function main() {
   // Charger README
   let readme = fs.readFileSync("README.md", "utf-8");
 
+  console.log(
+    "Dépôts récupérés:",
+    repos.map((r) => r.name)
+  );
+  console.log(
+    "Dépôts filtrés:",
+    filtered.map((r) => r.name)
+  );
+
   // Remplacer contenu entre balises
   const newReadme = readme.replace(
     /<!-- PROJECTS:START -->([\s\S]*?)<!-- PROJECTS:END -->/,
