@@ -2,14 +2,19 @@ name: Update README
 
 on:
   schedule:
-    - cron: "0 9 * * *" # tous les jours à 9h
-  workflow_dispatch: # pour lancer manuellement
+    - cron: "0 9 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write # <- nécessaire pour push sur le repo
 
 jobs:
   update-readme:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }} # pour pousser
       - uses: actions/setup-node@v4
         with:
           node-version: "20"
