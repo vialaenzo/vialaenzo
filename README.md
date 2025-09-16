@@ -29,6 +29,8 @@ Voici un aperçu de mes projets récents.
 <!-- PROJECTS:START -->
 | Projet | Description | Techs |
 |--------|-------------|-------|
+| [cub3d_42](https://github.com/vialaenzo/cub3d_42) | Aucune description | C, Roff, Makefile, Shell, Perl |
+| [inception_42](https://github.com/vialaenzo/inception_42) | Aucune description | Makefile, Shell, Dockerfile |
 | [ft_transcendence_42](https://github.com/vialaenzo/ft_transcendence_42) | Aucune description | TypeScript, JavaScript, Dockerfile, HTML, Shell, CSS, Makefile |
 | [webserv_42](https://github.com/vialaenzo/webserv_42) | Aucune description | C++, HTML, CSS, Python, Shell, JavaScript, Makefile, Perl |
 | [my_pipex_42](https://github.com/vialaenzo/my_pipex_42) | Aucune description | C, Makefile |
