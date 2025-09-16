@@ -2,21 +2,28 @@ import fs from "fs";
 import fetch from "node-fetch";
 
 const USERNAME = "vialaenzo";
-const KEYWORDS = ["42"]; // <-- les mots-clés que tu veux
+const KEYWORDS = ["42"]; // mots-clés
 
 async function getRepos() {
-  const res = await fetch(`https://api.github.com/users/${USERNAME}/repos`);
+  const res = await fetch(`https://api.github.com/users/${USERNAME}/repos?per_page=100`);
   return res.json();
 }
 
-function generateTable(repos) {
+// Récupérer les techs (langages) d'un repo
+async function getRepoLanguages(repo) {
+  const res = await fetch(repo.languages_url);
+  const data = await res.json();
+  return Object.keys(data).join(", ") || "-";
+}
+
+function generateTable(reposWithTechs) {
   let table = "| Projet | Description | Techs |\n";
   table += "|--------|-------------|-------|\n";
 
-  repos.forEach((repo) => {
+  reposWithTechs.forEach(({ repo, techs }) => {
     table += `| [${repo.name}](${repo.html_url}) | ${
       repo.description || "Aucune description"
-    } | - |\n`;
+    } | ${techs} |\n`;
   });
 
   return table;
@@ -26,23 +33,27 @@ async function main() {
   const repos = await getRepos();
 
   // Filtrer sur les mots-clés
-  const filtered = repos.filter((repo) =>
-    KEYWORDS.some((k) => repo.name.toLowerCase().includes(k.toLowerCase()))
+  let filtered = repos
+    .filter((repo) =>
+      KEYWORDS.some((k) => repo.name.toLowerCase().includes(k.toLowerCase()))
+    )
+    // Trier par date de mise à jour (les plus récents en premier)
+    .sort((a, b) => new Date(b.updated_at) - new Date(a.updated_at))
+    // Prendre les 5 derniers
+    .slice(0, 5);
+
+  // Récupérer les techs pour chaque repo
+  const reposWithTechs = await Promise.all(
+    filtered.map(async (repo) => ({
+      repo,
+      techs: await getRepoLanguages(repo),
+    }))
   );
 
-  const table = generateTable(filtered);
+  const table = generateTable(reposWithTechs);
 
   // Charger README
   let readme = fs.readFileSync("README.md", "utf-8");
-
-  console.log(
-    "Dépôts récupérés:",
-    repos.map((r) => r.name)
-  );
-  console.log(
-    "Dépôts filtrés:",
-    filtered.map((r) => r.name)
-  );
 
   // Remplacer contenu entre balises
   const newReadme = readme.replace(
@@ -51,6 +62,8 @@ async function main() {
   );
 
   fs.writeFileSync("README.md", newReadme);
+
+  console.log("README mis à jour avec les projets récents !");
 }
 
 main();
