@@ -29,10 +29,9 @@ Voici un aperçu de mes projets récents.
 <!-- PROJECTS:START -->
 | Projet | Description | Techs |
 |--------|-------------|-------|
-| [ft_transcendence_42](https://github.com/vialaenzo/ft_transcendence_42) | Aucune description | - |
-| [inception](https://github.com/vialaenzo/inception) | Aucune description | - |
-| [my_pipex_42](https://github.com/vialaenzo/my_pipex_42) | Aucune description | - |
-| [webserv_42](https://github.com/vialaenzo/webserv_42) | Aucune description | - |
+| [ft_transcendence_42](https://github.com/vialaenzo/ft_transcendence_42) | Aucune description | TypeScript, JavaScript, Dockerfile, HTML, Shell, CSS, Makefile |
+| [webserv_42](https://github.com/vialaenzo/webserv_42) | Aucune description | C++, HTML, CSS, Python, Shell, JavaScript, Makefile, Perl |
+| [my_pipex_42](https://github.com/vialaenzo/my_pipex_42) | Aucune description | C, Makefile |
 
 <!-- PROJECTS:END -->
 
