@@ -13,7 +13,6 @@ Voici un aperçu de mes projets récents.
 ![React](https://img.shields.io/badge/-React-61DAFB?style=flat-square&logo=react&logoColor=black)
 ![TailwindCSS](https://img.shields.io/badge/-TailwindCSS-38B2AC?style=flat-square&logo=tailwind-css&logoColor=white)
 ![Node.js](https://img.shields.io/badge/-Node.js-339933?style=flat-square&logo=node.js&logoColor=white)
-![Python](https://img.shields.io/badge/-Python-3776AB?style=flat-square&logo=python&logoColor=white)
 ![C](https://img.shields.io/badge/-C-00599C?style=flat-square&logo=c&logoColor=white)
 
 ---
@@ -21,6 +20,7 @@ Voici un aperçu de mes projets récents.
 ## 🖥️ Outils de développement
 
 ![Visual Studio Code](https://img.shields.io/badge/-Visual%20Studio%20Code-0078d7?style=flat-square&logo=visual-studio-code&logoColor=white)
+![Insomnia](https://img.shields.io/badge/Insomnia-black?logo=insomnia&logoColor=5849BE)
 
 ---
 
