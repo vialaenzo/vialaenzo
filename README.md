@@ -27,8 +27,12 @@ Voici un aperçu de mes projets récents.
 ## 📌 Projets
 
 <!-- PROJECTS:START -->
-
-Chargement des projets...
+| Projet | Description | Techs |
+|--------|-------------|-------|
+| [ft_transcendence_42](https://github.com/vialaenzo/ft_transcendence_42) | Aucune description | - |
+| [inception](https://github.com/vialaenzo/inception) | Aucune description | - |
+| [my_pipex_42](https://github.com/vialaenzo/my_pipex_42) | Aucune description | - |
+| [webserv_42](https://github.com/vialaenzo/webserv_42) | Aucune description | - |
 
 <!-- PROJECTS:END -->
 
