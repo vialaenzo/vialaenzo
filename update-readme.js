@@ -2,7 +2,7 @@ import fs from "fs";
 import fetch from "node-fetch";
 
 const USERNAME = "vialaenzo";
-const KEYWORDS = ["42", "inception", "api", "front"]; // <-- les mots-clés que tu veux
+const KEYWORDS = ["42"]; // <-- les mots-clés que tu veux
 
 async function getRepos() {
   const res = await fetch(`https://api.github.com/users/${USERNAME}/repos`);
