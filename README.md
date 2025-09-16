@@ -1,7 +1,7 @@
 # 👋 Salut, moi c’est Enzo Viala
 
-Bienvenue sur mon profil GitHub !  
-Je suis passionné par le développement web et logiciels.  
+Bienvenue sur mon profil GitHub !
+Je suis passionné par le développement web et logiciels.
 Voici un aperçu de mes projets récents.
 
 ---
@@ -24,11 +24,13 @@ Voici un aperçu de mes projets récents.
 
 ---
 
-## 📌 Projets récents
+## 📌 Projets
 
-| Projet | Description | Techs |
-|--------|-------------|-------|
-| [`inception`](https://github.com/vialaenzo/inception) | Conteneurisation d'une app web | NGINX  MANGODB  WORDPRESS |
+<!-- PROJECTS:START -->
+
+Chargement des projets...
+
+<!-- PROJECTS:END -->
 
 ---
 
