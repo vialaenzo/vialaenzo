@@ -1,37 +1,47 @@
-const fs = require("fs");
-const axios = require("axios");
+import fs from "fs";
+import fetch from "node-fetch";
 
-const username = "vialaenzo";
-const maxRepos = 3;
+const USERNAME = "vialaenzo";
+const KEYWORDS = ["42", "inception", "api", "front"]; // <-- les mots-clés que tu veux
 
-async function main() {
-  const res = await axios.get(
-    `https://api.github.com/users/${username}/repos?sort=updated&per_page=${maxRepos}`
-  );
-  const repos = res.data;
-
-  // Construit la nouvelle section "Projets récents"
-  let newSection = "## 📌 Projets récents\n\n";
-  newSection += "| Projet | Description | Techs |\n";
-  newSection += "|--------|-------------|-------|\n";
-
-  for (const repo of repos) {
-    newSection += `| [\`${repo.name}\`](${repo.html_url}) | ${repo.description || "—"} | — |\n`;
-  }
-
-  // Lis le README existant
-  let readme = fs.readFileSync("README.md", "utf8");
-
-  // Remplace dynamiquement la section entre "## 📌 Projets récents" et la section suivante
-  const updated = readme.replace(
-    /## 📌 Projets récents[\s\S]*?(?=## |\Z)/,
-    newSection
-  );
-
-  fs.writeFileSync("README.md", updated);
+async function getRepos() {
+  const res = await fetch(`https://api.github.com/users/${USERNAME}/repos`);
+  return res.json();
 }
 
-main().catch((err) => {
-  console.error("Erreur pendant la mise à jour du README :", err);
-  process.exit(1);
-});
+function generateTable(repos) {
+  let table = "| Projet | Description | Techs |\n";
+  table += "|--------|-------------|-------|\n";
+
+  repos.forEach((repo) => {
+    table += `| [${repo.name}](${repo.html_url}) | ${
+      repo.description || "Aucune description"
+    } | - |\n`;
+  });
+
+  return table;
+}
+
+async function main() {
+  const repos = await getRepos();
+
+  // Filtrer sur les mots-clés
+  const filtered = repos.filter((repo) =>
+    KEYWORDS.some((k) => repo.name.toLowerCase().includes(k.toLowerCase()))
+  );
+
+  const table = generateTable(filtered);
+
+  // Charger README
+  let readme = fs.readFileSync("README.md", "utf-8");
+
+  // Remplacer contenu entre balises
+  const newReadme = readme.replace(
+    /<!-- PROJECTS:START -->([\s\S]*?)<!-- PROJECTS:END -->/,
+    `<!-- PROJECTS:START -->\n${table}\n<!-- PROJECTS:END -->`
+  );
+
+  fs.writeFileSync("README.md", newReadme);
+}
+
+main();
