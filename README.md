@@ -29,11 +29,10 @@ Voici un aperçu de mes projets récents.
 <!-- PROJECTS:START -->
 | Projet | Description | Techs |
 |--------|-------------|-------|
-| [cub3d_42](https://github.com/vialaenzo/cub3d_42) | Aucune description | C, Roff, Makefile, Shell, Perl |
-| [inception_42](https://github.com/vialaenzo/inception_42) | Aucune description | Makefile, Shell, Dockerfile |
-| [ft_transcendence_42](https://github.com/vialaenzo/ft_transcendence_42) | Aucune description | TypeScript, JavaScript, Dockerfile, HTML, Shell, CSS, Makefile |
-| [webserv_42](https://github.com/vialaenzo/webserv_42) | Aucune description | C++, HTML, CSS, Python, Shell, JavaScript, Makefile, Perl |
-| [my_pipex_42](https://github.com/vialaenzo/my_pipex_42) | Aucune description | C, Makefile |
+| [webserv_42](https://github.com/vialaenzo/webserv_42) | This project is small Nginx server without more features but is ready to test. Don't use really it. | C++, HTML, CSS, Python, Shell, JavaScript, Makefile, Perl |
+| [inception_42](https://github.com/vialaenzo/inception_42) | A minimal Docker‑Compose stack that brings up a WordPress site backed by a MariaDB database. All data is persisted in two dedicated directories (/home/eviala/data/wordpress and /home/eviala/data/mariadb) so you can safely stop, restart or delete the containers without losing your content. | Makefile, Shell, Dockerfile |
+| [ft_transcendence_42](https://github.com/vialaenzo/ft_transcendence_42) | Final Common Core project at 42: a modern, secure, and extensible multiplayer Pong web platform. The goal: build a complete webapp with user management, authentication, microservices, and real-time gameplay. | TypeScript, JavaScript, Dockerfile, HTML, Shell, CSS, Makefile |
+| [cub3d_42](https://github.com/vialaenzo/cub3d_42) | Cub3D is a lightweight 3‑D ray‑casting engine written in C for the 42 school curriculum. It renders a first‑person view of a maze described in a .cub file, using the MiniLibX graphics library. | C, Roff, Makefile, Shell, Perl |
 
 <!-- PROJECTS:END -->
 
